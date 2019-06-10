@@ -9,12 +9,12 @@ namespace Ejercicio1
 {
     class Rectangulo:INotifyPropertyChanged
     {
+        //Variables
         private string coordenadaX1;
         private string coordenadaX2;
         private string coordenadaY1;
         private string coordenadaY2;
         private string resultado;
-        private string cuadrado;
 
         public string CoordenadaX1
         {
